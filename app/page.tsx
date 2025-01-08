@@ -3,6 +3,8 @@ import Link from "next/link"
 import { AnimatedBackground } from "@/components/animated-background"
 import { ArrowRight, Zap } from 'lucide-react'
 
+
+//hero
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-100px)] relative">
