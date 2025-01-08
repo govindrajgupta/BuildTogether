@@ -64,8 +64,8 @@ export default function ApplicantsList() {
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
-                    <DialogTitle>{dev.name}'s Application</DialogTitle>
-                    <DialogDescription>Review the developer's application and decide if you want to reveal their contact information.</DialogDescription>
+                    <DialogTitle>{dev.name}s Application</DialogTitle>
+                    <DialogDescription>Review the developers application and decide if you want to reveal their contact information.</DialogDescription>
                   </DialogHeader>
                   <div className="py-4">
                     <h3 className="font-semibold mb-2">Skills:</h3>

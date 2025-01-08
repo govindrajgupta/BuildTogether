@@ -16,10 +16,10 @@ export default function Home() {
       </p>
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
         <Button asChild size="lg">
-          <Link href="/founders/signup">I'm a Founder</Link>
+          <Link href="/founders/signup">Im a Founder</Link>
         </Button>
         <Button asChild variant="outline" size="lg">
-          <Link href="/developers/signup">I'm a Developer</Link>
+          <Link href="/developers/signup">Im a Developer</Link>
         </Button>
       </div>
       <div className="bg-muted p-6 rounded-lg max-w-2xl w-full">
