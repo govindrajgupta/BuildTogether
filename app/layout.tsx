@@ -7,7 +7,7 @@ import { ModeToggle } from '@/components/mode-toggle'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Founder-Developer Connect',
+  title: 'BuildTogether',
   description: 'Connect founders with technical co-founders',
 }
 
