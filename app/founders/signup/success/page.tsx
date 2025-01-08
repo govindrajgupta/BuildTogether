@@ -1,8 +1,10 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { motion } from "framer-motion"
 
-export default function FounderSignupSuccess() {
+export default function Page() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-100px)]">
       <motion.div
@@ -39,18 +41,17 @@ export default function FounderSignupSuccess() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        Welcome aboard! You're now ready to connect with talented developers and bring your startup idea to life.
+        Welcome aboard! You&apos;re now ready to connect with talented developers and bring your startup idea to life.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
       >
-        <Button asChild>
-          <Link href="/startups">View Startup Ideas</Link>
-        </Button>
+        <Link href="/startups">
+          <Button>View Startup Ideas</Button>
+        </Link>
       </motion.div>
     </div>
   )
 }
-
