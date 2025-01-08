@@ -25,7 +25,7 @@ const mentors = [
 ]
 
 export default function MentorshipProgram() {
-  const [selectedMentor, setSelectedMentor] = useState(null)
+  const [selectedMentor, setSelectedMentor] = useState<{ id: number; name: string; expertise: string[]; experience: string } | null>(null)
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -53,9 +53,9 @@ export default function MentorshipProgram() {
                 </DialogTrigger>
                 <DialogContent>
                   <DialogHeader>
-                    <DialogTitle>Request Mentorship from {selectedMentor?.name}</DialogTitle>
+                    <DialogTitle>Request Mentorship from {selectedMentor ? selectedMentor.name : ''}</DialogTitle>
                     <DialogDescription>
-                      Explain why you'd like to connect with this mentor and what you hope to learn.
+                      Explain why you like to connect with this mentor and what you hope to learn.
                     </DialogDescription>
                   </DialogHeader>
                   <div className="space-y-4 py-4">

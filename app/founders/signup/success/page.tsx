@@ -41,7 +41,7 @@ export default function Page() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        Welcome aboard! You&apos;re now ready to connect with talented developers and bring your startup idea to life.
+        Welcome aboard! You are now ready to connect with talented developers and bring your startup idea to life.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
